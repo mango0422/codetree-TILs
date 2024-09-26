@@ -15,7 +15,7 @@ public class Main {
             if ( d > 0 && d < 29 ){
                 System.out.println("Winter");
             } else if( d == 29 && (y % 4 == 0) ){
-                if(y % 100 !=0 || (y % 100 == 0 && y % 400 == 0)){
+                if(y % 100 !=0 || y % 400 == 0){
                     System.out.println("Winter");
                 } else{
                     System.out.println("-1");
